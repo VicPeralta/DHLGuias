@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<res:ShipmentValidateErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.dhl.com ship-val-err-res.xsd'>
+	<Response>
+		<ServiceHeader>
+			<MessageTime>2021-06-11T01:54:51.357+00:00</MessageTime>
+			<MessageReference>1234567890123456789012345678901</MessageReference>
+			<SiteID>v62_XelXIuN1Kq</SiteID>
+		</ServiceHeader>
+		<Status>
+			<ActionStatus/>
+			<Condition>
+				<ConditionCode>SV027a</ConditionCode>
+				<ConditionData>Shipment date has passed. Correct shipment date and resubmit. If this problem reoccurs
+                    contact your technical service representative.</ConditionData>
+			</Condition>
+		</Status>
+	</Response>
+</res:ShipmentValidateErrorResponse>
+<!-- ServiceInvocationId:20210611015451_b82c_8339ed52-00be-4786-8e27-ea5d91ff950a -->

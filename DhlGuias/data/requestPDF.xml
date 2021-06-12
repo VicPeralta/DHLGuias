@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:ShipmentRequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com ship-val-global-req.xsd" schemaVersion="6.2">
+	<Request>
+		<ServiceHeader>
+			<MessageTime>2021-06-08T19:30:47-05:00</MessageTime>
+			<MessageReference>1234567890123456789012345678901</MessageReference>
+			<SiteID>v62_XelXIuN1Kq</SiteID>
+			<Password>VCE7bpVMBo</Password>
+		</ServiceHeader>
+		<MetaData>
+			<SoftwareName>Cron</SoftwareName>
+			<SoftwareVersion>6</SoftwareVersion>
+		</MetaData>
+	</Request>
+	<RegionCode>AM</RegionCode>
+	<RequestedPickupTime>Y</RequestedPickupTime>
+	<NewShipper>Y</NewShipper>
+	<LanguageCode>es</LanguageCode>
+	<PiecesEnabled>Y</PiecesEnabled>
+	<Billing>
+		<ShipperAccountNumber>988108000</ShipperAccountNumber>
+		<ShippingPaymentType>S</ShippingPaymentType>
+	</Billing>
+	<Consignee>
+		<CompanyName>Microsoft Corp.</CompanyName>
+		<AddressLine>Av. Pie de la Cuesta #121</AddressLine>
+		<AddressLine>Paseos del Pedregal</AddressLine>
+		<AddressLine>Queretaro</AddressLine>
+		<City>Queretaro</City>
+		<PostalCode>76900</PostalCode>
+		<CountryCode>MX</CountryCode>
+		<CountryName>MEXICO</CountryName>
+		<Contact>
+			<PersonName>Victor Peralta</PersonName>
+			<PhoneNumber>442224212</PhoneNumber>
+			<Email>victor.peralta.gomez@gmail.com</Email>
+		</Contact>
+	</Consignee>
+	<Commodity>
+		<CommodityCode>cc</CommodityCode>
+		<CommodityName>cn</CommodityName>
+	</Commodity>
+	<Reference>
+		<ReferenceID>Parque Central</ReferenceID>
+	</Reference>
+	<ShipmentDetails>
+		<NumberOfPieces>2</NumberOfPieces>
+		<!-- Total de piezas o cajas que contendra el envío -->
+		<Pieces>
+			<Piece>
+				<PieceID>1</PieceID>
+				<PackageType>CP</PackageType>
+				<Weight>10.0</Weight>
+				<DimWeight>0.0</DimWeight>
+				<Width>1</Width>
+				<Height>1</Height>
+				<Depth>1</Depth>
+			</Piece>
+			<Piece>
+				<PieceID>2</PieceID>
+				<PackageType>CP</PackageType>
+				<Weight>10.0</Weight>
+				<DimWeight>0.0</DimWeight>
+				<Width>1</Width>
+				<Height>1</Height>
+				<Depth>1</Depth>
+			</Piece>
+		</Pieces>
+		<Weight>20.0</Weight>
+		<!-- Peso Total de todas las piezas -->
+		<WeightUnit>K</WeightUnit>
+		<GlobalProductCode>N</GlobalProductCode>
+		<LocalProductCode>N</LocalProductCode>
+		<Date>2021-06-11</Date>
+		<!-- Fecha de cuando se esta generando el envio -->
+		<Contents>Cintas</Contents>
+		<DoorTo>DD</DoorTo>
+		<DimensionUnit>C</DimensionUnit>
+		<InsuredAmount>1200.00</InsuredAmount>
+		<PackageType>CP</PackageType>
+		<IsDutiable>N</IsDutiable>
+		<CurrencyCode>MXN</CurrencyCode>
+	</ShipmentDetails>
+	<Shipper>
+		<ShipperID>1</ShipperID>
+		<CompanyName>Microsoft Corp.</CompanyName>
+		<AddressLine>Av. Pie de la Cuesta 1301</AddressLine>
+		<AddressLine>Paseos del Pedregal</AddressLine>
+		<AddressLine>Queretaro</AddressLine>
+		<City>Queretaro</City>
+		<PostalCode>76148</PostalCode>
+		<CountryCode>MX</CountryCode>
+		<CountryName>MEXICO</CountryName>
+		<Contact>
+			<PersonName>Victor Peralta</PersonName>
+			<PhoneNumber>5553452000</PhoneNumber>
+			<Email>victor.peralta.gomez@gmail.com</Email>
+		</Contact>
+	</Shipper>
+	<EProcShip>N</EProcShip>
+	<LabelImageFormat>PDF</LabelImageFormat>
+</req:ShipmentRequest>
